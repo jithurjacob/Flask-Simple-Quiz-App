@@ -67,7 +67,7 @@ def getQuestions():
 def index():
     #return make_response(send())
     #headers = {'Content-Type': 'text/html'}    
-    return make_response(render_template('index.html'),200)
+    return make_response(render_template('index2.html'),200)
 
 if __name__ == '__main__':
       ui.run() #app.run(debug=True)
